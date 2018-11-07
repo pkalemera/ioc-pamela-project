@@ -4,6 +4,11 @@ padding:0;
 box-sizing: border-box;
 font-family: 'Montserrat', sans-serif;
 }
+  @media(max-width:800px) {
+    .features p {
+      font-size: 1rem:
+    }
+  }
 .intro {
   text-align: center;
   font-family: 'macho', sans-serif;
@@ -18,10 +23,10 @@ font-family: 'Montserrat', sans-serif;
 }
 .titlebackground {
   background-image: url(img/joanna-kosinska-129039.jpg);
-  min-height: 50vh;
+  min-height: 20vh;
   width: auto;
-  background-position:center;
-  background-size: 100%;
+  background-position:50% 40%;
+  background-size: cover%;
   text-align: center;
 
 }
